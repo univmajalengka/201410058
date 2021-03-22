@@ -1,0 +1,22 @@
+program biodata;
+uses crt;
+
+var
+Nama:string;
+NPM:string;
+Alamat:string;
+TTL:string;
+NoHP:string;
+Motto:string;
+
+begin
+writeln('Masukan Biodata anda');
+writeln('Masukan Nama    :'); readln(nama);
+writeln('Masukan NPM     :'); readln(npm);
+writeln('Masukan Alamat  :'); readln(alamat);
+writeln('Masukan TTL     :'); readln(ttl);
+writeln('Masukan NoHP    :'); readln(nohp);
+writeln('Masukan Motto   :'); readln(motto);
+
+end 
+ . 
